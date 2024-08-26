@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap_1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark border-bottom">
+            <a class="navbar-brand ms-3" href="#home"><span class="text-info"></i>Farkas Gergő
+                </span><i class="bi bi-bootstrap ms-2"></i> Bootstrap</a>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-light" aria-current="page" href="#">Újdonságok</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-light" href="#">Lizing</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-light" href="#">Modellek</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link text-light" href="#">Kapcsolat</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators ">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="media/golf.jpg" class="d-block w-100 h-auto img-fluid" alt="vw cc">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="">Egyedi stílus és kifinomult luxus</h5>
+                        <p class="">ezzel az autóval minden tekintetet magára vonz.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="media/tiguan.jpg" class="d-block w-100 h-auto img-fluid" alt="vw cc">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Prémium minőség és páratlan teljesítmény</h5>
+                        <p>amely minden utat élménnyé varázsol.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="media/passat.jpg" class="d-block w-100 img-fluid" alt="vw cc">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Az elegancia és a technológia tökéletes találkozása</h5>
+                        <p>a legjobb választás üzleti utazásokhoz.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="media/cc4.jpg" class="d-block w-100 img-fluid" alt="vw cc">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Igazi presztízs minden kilométerben</h5>
+                        <p>egy autó, amely a siker jelképe.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row ms-5 me-5 mb-5 border-bottom">
+                <div class="col">
+                    <p class="mt-5 fw-bold lh-base">Életre terveztük</p>
+                    <h2 class="fw-bold">Az új Golf</h2>
+                </div>
+                <div class="col text-end">
+                    <button type="button" class="btn btn-primary btn-lg mt-5 mb-5 pt-1 pb-1 ps-3 pe-3">Tovább</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row mb-5">
+            <div class="col mt-5">
+                <img src="media/golf_oldalkozi.jpeg" class="d-block w-100 img-fluid" alt="vw cc">
+            </div>
+            <div class="col text-start ps-5 ms-5">
+                <p class="ms-3 mt-5 fw-bold lh-base">Fedezze fel a Start modelleket</p>
+                <h2 class="fw-bold mb-5">Már 6 990 000 Ft-tól</h2>
+                <span class="mt-4 ms-3 d-block lh-lg w-50">Polo, Taigo és Golf modellünk most Start felszereltségi
+                    szinttel, jelentős kedvezménnyel elérhető!</span>
+                <button type="button" class="btn btn-primary btn-lg mt-5 mb-5 pt-1 pb-1 ps-3 pe-3 ms-3">Tovább</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row ms-5 mt-5 mb-5">
+            <div class="col">
+                <p class="ms-3 mt-5 fw-bold lh-base">Izgalmas újdonságok érkeztek </p>
+                <h2 class="fw-bold mb-5">Négy megújult és egy teljesen új modell</h2>
+                <span class="mt-4 ms-3 d-block lh-lg w-50">Ilyen sok újdonság ritkán érkezik egyszerre! A
+                    Volkswagen bemutatja a teljesen megújult Touareg, T-Cross, Tiguan és Passat modelleket, valamint az
+                    úttörő ID.7-et, amely teljesen elektromos meghajtással érkezett. Ismerkedjen meg a szezon kiemelkedő
+                    modelljeivel!</span>
+                <button type="button" class="btn btn-primary btn-lg mt-5 mb-5 pt-2 pb-2 ps-4 pe-4 ms-3">Tovább</button>
+            </div>
+            <div class="col mt-5 align-self-center">
+                <img src="media/tiguan_oldalkozi.png" class="d-block w-100 img-fluid" alt="vw cc">
+            </div>
+        </div> 
+    </div>
+
+    <div class="container-fluid">
+        <div class="row mb-5 mt-5">
+            <div class="col mt-5">
+                <img src="media/piros_oldalkozi.png" class="d-block w-100 img-fluid" alt="vw cc">
+            </div>
+            <div class="col text-start ps-5 ms-5">
+                <p class="ms-3 mt-5 fw-bold lh-base">Magabiztos megjelenés, verhetetlen ajánlat</p>
+                <h2 class="fw-bold mb-5">Hagyományos meghajtású és teljesen elektromos modellek Prime kivitelben, felár
+                    nélkül</h2>
+                <span class="mt-4 ms-3 d-block lh-lg w-50">Mintha egy kívánságműsorban lenne! A wolfsburgi márka
+                    legnépszerűbb modelljei rengeteg extrával, most felár nélkül. A Volkswagennél ez most a legnagyobb
+                    sláger!</span>
+                <button type="button" class="btn btn-primary btn-lg mt-5 mb-5 pt-1 pb-1 ps-3 pe-3 ms-3">Tovább</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row ms-5 mt-5 mb-5">
+            <div class="col">
+                <p class="ms-3 mt-5 fw-bold lh-base">Forint alapú, pénzügyi lízing ajánlat</p>
+                <h2 class="fw-bold mb-5">T-Cross modellek
+                    Prime kivitelben
+                    már 29 149 Ft havidíjtól
+                    Referencia THM: 4,1%</h2>
+                <span class="mt-4 ms-3 d-block lh-lg w-50 mb-4">A Smart Buy rugalmas finanszírozási lehetőségeket
+                    kínál
+                    kedvező havidíjjal álmai autója megvásárlásához. A Porsche Finance Group Hungary szolgáltatása
+                    lehetővé teszi, hogy a nyíltvégű pénzügyi konstrukciót az Ön igényeihez igazítsa. A lehetőségek
+                    között szerepel 20-50%-os önerő, 24-60 hónap közötti futamidő, valamint 10 000 és 70 000 km közötti
+                    éves futásteljesítmény-választék. A minimálisan finanszírozható összeg nettó
+                    <br> 3 000 000 Ft.</span>
+                <a href="#" class="border-bottom fw-bold ms-3 lh-lg custom-link">További információ</a>
+            </div>
+            <div class="col mt-5 align-self-center">
+                <img src="media/smartbuy-logo-2-m-solat.png" class="d-block w-100 img-fluid" alt="vw cc">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid ms-5 me-5">
+        <div class="row mt-5">
+            <div class="col ms-5">
+                <div class="card border-0 ms-5">
+                    <img src="media/vws.png" class="d-block w-75 img-fluid" alt="...">
+                    <div class="card-body w-75 mt-3">
+                        <h4 class="card-title fw-bold mb-3">Azonnal!</h4>
+                        <h2 class="fw-bold w-75 mb-5">Készletről elérhető autók, árgaranciával</h2>
+                        <p class="card-text lh-lg ">Válasszon azonnal elvihető Volkswagen modelljeink közül! A
+                            Volkswagen
+                            modellek motorizáltságtól függő, kombinált átlagfogyasztása: 4,7-12,2 l/100 km,
+                            CO₂-kibocsátása: 118-277 g/km. A megadott értékek a típusjóváhagyás során rögzített, gyári
+                            felszereltségekkel kerültek megállapításra. A nevezett értékek nem egyes járművekre
+                            vonatkoznak, nem részei a tájékoztatónak, hanem a különböző járműtípusok összehasonlítására
+                            szolgálnak, a 715/2007/EK rendelet jelenleg érvényes előírásainak megfelelően. Ezen
+                            értékeket egyes többletfelszereltségek, tartozékok, valamint a vezetői szokások és egyéb,
+                            nem technikai jellegű tényezők (pl. környezeti feltételek) is befolyásolják. A képen látható
+                            képkocsik illusztrációk.</p>
+                        <button type="button" class="btn btn-primary btn-lg mt-5 mb-5 pt-2 pb-2 ps-4 pe-4 ms-3">Tovább
+                            információ</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0">
+                    <img src="media/zero.jpg" class="d-block w-75 img-fluid" alt="...">
+                    <div class="card-body w-75 mt-3">
+                        <h4 class="card-title fw-bold mb-3">Way to Zero!</h4>
+                        <h2 class="fw-bold mb-5">Úton a karbonsemlegesség felé</h2>
+                        <p class="card-text lh-lg ">Elköteleztük magunkat a párizsi éghajlatvédelmi egyezmény
+                            mellett azzal a
+                            céllal, hogy 2050-ig szén-dioxid-semleges vállalattá váljunk.</p>
+                        <button type="button" class="btn btn-primary btn-lg mt-5 mb-5 pt-2 pb-2 ps-4 pe-4 ms-3">Tovább
+                            információ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row mb-5 mt-5">
+            <div class="col mt-5 align-self-center">
+                <img src="media/pirosidk.png" class="d-block w-100 img-fluid" alt="vw cc">
+            </div>
+            <div class="col text-start ps-5 ms-5">
+                <p class="ms-3 mt-5 fw-bold lh-base">Felvillanyozó céges ajánlat</p>
+                <h2 class="fw-bold mb-5 w-50">Teljesen elektromos ID. modellek állami támogatással már <br> 10 857 000
+                    Ft-tól</h2>
+                <span class="mt-4 ms-3 d-block lh-lg w-50">Az Energiaügyi Minisztérium pályázatának köszönhetően a
+                    cégek akár 4 millió forint támogatást is kaphatnak minden egyes elektromos autó beszerzéséhez. És
+                    hogy most még inkább érdemes legyen teljesen elektromos Volkswagent választani, az ID. modellekhez
+                    is felár nélkül adjuk a rengeteg extrát tartalmazó Prime csomagot.</span>
+                <button type="button" class="btn btn-primary btn-lg mt-5 mb-5 pt-2 pb-2 ps-4 pe-4 ms-3">Tovább</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="row gx-5">
+            <div class="col-3 ms-5 ">
+                <h1 class="hack">.</h1>
+                <h4 class="mb-4">Szűrj le modellt</h4>
+                <ul class="list-group">
+                    <li class="list-group-item custum-cb border-0">
+                        
+                        <input class="form-check-input me-1 pb-4 pe-4" type="checkbox" value="" id="firstCb">
+                        <label class="form-check-label lh-lg ms-2" for="firstCheckbox">Kompakt</label>
+                    </li>
+                    <li class="list-group-item custum-cb border-0">
+                        <input class="form-check-input me-1 pb-4 pe-4" type="checkbox" value="" id="secondCb">
+                        <label class="form-check-label lh-lg ms-2" for="secondCheckbox">SUV</label>
+                    </li>
+                    <li class="list-group-item custum-cb border-0">
+                        <input class="form-check-input me-1 pb-4 pe-4" type="checkbox" value="" id="thirdCb">
+                        <label class="form-check-label lh-lg ms-2" for="thirdCheckbox">Kombi</label>
+                    </li>
+                    <li class="list-group-item custum-cb border-0">
+                        <input class="form-check-input me-1 pb-4 pe-4" type="checkbox" value="" id="fourthCb">
+                        <label class="form-check-label lh-lg ms-2" for="thirdCheckbox">Kombi</label>
+                    </li>
+                    <li class="list-group-item custum-cb border-0">
+                        <input class="form-check-input me-1 pb-4 pe-4" type="checkbox" value="" id="fifthCb">
+                        <label class="form-check-label lh-lg ms-2" for="thirdCheckbox">Elektromos</label>
+                    </li>
+                    <li class="list-group-item custum-cb border-0 ">
+                        <input class="form-check-input me-1 pb-4 pe-4" type="checkbox" value="" id="sixthCb">
+                        <label class="form-check-label lh-lg ms-2" for="thirdCheckbox">Egyterű</label>
+                    </li>
+                    <li class="list-group-item custum-cb border-0 me-1 pb-4 pe-4">
+                        <input class="form-check-input me-1 pb-4 pe-4" type="checkbox" value="" id="seventhCb">
+                        <label class="form-check-label lh-lg ms-2" for="thirdCheckbox">Limousine</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class="card">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                              <img src="..." class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img src="..." class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img src="..." class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img src="..." class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img src="..." class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img src="..." class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img src="..." class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img src="..." class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img src="..." class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img src="..." class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container-fluid">
+        <div class="row mb-5 mt-5">
+            <div class="col mt-5 align-self-center">
+                <img src="media/pirosidk.png" class="d-block w-100 img-fluid" alt="vw cc">
+            </div>
+            <div class="col text-start ps-5 ms-5">
+                <p class="ms-3 mt-5 fw-bold lh-base">Felvillanyozó céges ajánlat</p>
+                <h2 class="fw-bold mb-5 w-50">Teljesen elektromos ID. modellek állami támogatással már <br> 10 857 000
+                    Ft-tól</h2>
+                <span class="mt-4 ms-3 d-block lh-lg w-50">Az Energiaügyi Minisztérium pályázatának köszönhetően a
+                    cégek akár 4 millió forint támogatást is kaphatnak minden egyes elektromos autó beszerzéséhez. És
+                    hogy most még inkább érdemes legyen teljesen elektromos Volkswagent választani, az ID. modellekhez
+                    is felár nélkül adjuk a rengeteg extrát tartalmazó Prime csomagot.</span>
+                <button type="button" class="btn btn-primary btn-lg mt-5 mb-5 pt-2 pb-2 ps-4 pe-4 ms-3">Tovább</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row mb-5 mt-5">
+            <div class="col mt-5 align-self-center">
+                <img src="media/pirosidk.png" class="d-block w-100 img-fluid" alt="vw cc">
+            </div>
+            <div class="col text-start ps-5 ms-5">
+                <p class="ms-3 mt-5 fw-bold lh-base">Felvillanyozó céges ajánlat</p>
+                <h2 class="fw-bold mb-5 w-50">Teljesen elektromos ID. modellek állami támogatással már <br> 10 857 000
+                    Ft-tól</h2>
+                <span class="mt-4 ms-3 d-block lh-lg w-50">Az Energiaügyi Minisztérium pályázatának köszönhetően a
+                    cégek akár 4 millió forint támogatást is kaphatnak minden egyes elektromos autó beszerzéséhez. És
+                    hogy most még inkább érdemes legyen teljesen elektromos Volkswagent választani, az ID. modellekhez
+                    is felár nélkül adjuk a rengeteg extrát tartalmazó Prime csomagot.</span>
+                <button type="button" class="btn btn-primary btn-lg mt-5 mb-5 pt-2 pb-2 ps-4 pe-4 ms-3">Tovább</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row mb-5 mt-5">
+            <div class="col mt-5 align-self-center">
+                <img src="media/pirosidk.png" class="d-block w-100 img-fluid" alt="vw cc">
+            </div>
+            <div class="col text-start ps-5 ms-5">
+                <p class="ms-3 mt-5 fw-bold lh-base">Felvillanyozó céges ajánlat</p>
+                <h2 class="fw-bold mb-5 w-50">Teljesen elektromos ID. modellek állami támogatással már <br> 10 857 000
+                    Ft-tól</h2>
+                <span class="mt-4 ms-3 d-block lh-lg w-50">Az Energiaügyi Minisztérium pályázatának köszönhetően a
+                    cégek akár 4 millió forint támogatást is kaphatnak minden egyes elektromos autó beszerzéséhez. És
+                    hogy most még inkább érdemes legyen teljesen elektromos Volkswagent választani, az ID. modellekhez
+                    is felár nélkül adjuk a rengeteg extrát tartalmazó Prime csomagot.</span>
+                <button type="button" class="btn btn-primary btn-lg mt-5 mb-5 pt-2 pb-2 ps-4 pe-4 ms-3">Tovább</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

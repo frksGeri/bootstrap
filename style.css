@@ -1,0 +1,46 @@
+*{
+    
+}
+
+.navbar {
+    background: transparent !important;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+}
+
+li .nav-link:hover {
+    color: #f3f5f6e2 !important;
+    font-weight: 600;
+}
+
+.carousel-item img {
+    max-height: 680px;
+    object-fit: cover;
+
+}
+
+.btn {
+    background: #001e50;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.custom-link{
+    text-decoration: none;
+    padding-bottom: 2px;
+    color: #001e50;
+    border-bottom: 1px solid #001e50;
+
+}
+
+.custum-cb .form-check-input{
+    border: 1px black solid !important;
+    border-radius: 0;
+}
+.hack{
+    color: white;
+}
